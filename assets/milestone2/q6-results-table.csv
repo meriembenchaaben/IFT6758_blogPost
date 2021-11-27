@@ -1,0 +1,7 @@
+﻿Classifier,AUC of ROC,F1 (Macro Average),Brier Score,Comet link
+Random Forest,0.748,0.525,0.091,https://www.comet.ml/meriembchaaben/ift6758/561f6ad677da470986f66c916519e9cf
+XGBoost + Regularization + Grid Search,0.774,0.612,0.173,https://www.comet.ml/meriembchaaben/ift6758/16c4746d9f314fa9b0038911ee4cdfac
+Feature Selection + XGBoost + Regularization,0.773,0.614,0.174,https://www.comet.ml/meriembchaaben/ift6758/6b56e4f49b6740548f83d6a16c13dc6d
+"Neural Network (cross entropy loss, early stopping)",0.538,0.547,0.092,https://www.comet.ml/meriembchaaben/ift6758/3533c1ad47bf4d53b53edccf0de74f1e
+"Neural Network (focal loss, gamma=2, early stopping)",0.546,0.558,0.106,https://www.comet.ml/meriembchaaben/ift6758/dd864f6af8094e1ab1c19fbcb4115278
+"Neural Network (focal loss, gamma=2, no early stopping)",0.56,0.558,0.159,https://www.comet.ml/meriembchaaben/ift6758/9128c55a6c5e402ea8f1a6e660e89994
